@@ -8,6 +8,6 @@ public class MainController {
 
 	@GetMapping
 	public static String main(String[] args) {
-		return "main page";
+		return "cicd test 2";
 	}
 }
