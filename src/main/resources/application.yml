@@ -1,0 +1,6 @@
+
+spring:
+  application:
+    name: cicd_test_2
+
+mysecret_data: secret
