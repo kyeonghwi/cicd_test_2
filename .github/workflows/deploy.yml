@@ -33,7 +33,7 @@ jobs:
       - name: rename, move jar to app.jar
         run: |
           pwd
-          mv ./build/libs/*-SNAPSHOT.JAR ./app.jar
+          mv ./build/libs/*-SNAPSHOT.jar ./app.jar
           ls -al
 
       - name: send jar file to EC2
